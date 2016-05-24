@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std; 
+int bil1,bil2,kali,bagi,tambah,kurang;
+void perkalian ();
+void pembagian ();
+void pertambahan ();
+void perkurangan ();
+
+int main()
+{
+cout<< "masukkan bilangan1 : ";
+cin>>bil1; 
+cout<< "masukkan bilangan2 : ";
+cin>>bil2;
+}
+
+void perkalian()
+{
+	kali= bil1*bil2;
+	cout<< "nilai perkaliannya adalah	: "<<kali<<endl; 
+
+}
+void pembagian ()
+{
+	bagi = bil1/bil2;
+	cout<< "nilai pembagiannya adalah	: "<<bagi<<endl;
+}
+void pertambahan()
+{
+	tambah = bil1+bil2;
+	cout<< "nilai pertambahannya adalah	: "<<tambah<<endl;
+}
+void perkurangan()
+{
+	kurang = bil1-bil2;
+	cout<< "nilai pengurangannya adalah	: "<<kurang<<endl;
+}
+	
+
+
