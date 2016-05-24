@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std; 
+
+int luas, sisi, keliling;
+
+void luassegiempat ()
+{
+	luas= sisi*sisi;
+	cout<< "luas segi empat adalah		: "<<luas<<endl; 
+
+}
+
+void kelilingsegiempat()
+{
+	keliling = 4*sisi;
+	cout<< "keliling segi empat adalah	: "<<keliling<<endl;
+}
+	
+int main()
+{
+cout<< "masukkan nilai persegi  : " <<endl;
+cin>>sisi;
+luassegiempat();
+kelilingsegiempat();
+
+}
+
